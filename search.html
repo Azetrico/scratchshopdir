@@ -9,10 +9,10 @@
 <center>
 <br><br><br><br><br><br>
 <h1>Search the Shop Directory</h1>
-<textarea placeholder="Search term" style="resize:none;font-family:Arial;" rows="1" cols="50">
+<textarea id="searchBox" placeholder="Search term" style="resize:none;font-family:Arial;" rows="1" cols="50">
 </textarea>
 <br>
-<select>
+<select id="typeFilter">
 <option value="notSelected" disabled selected>Select a type...</option>
 <option value="all">All types</option>
 <option value="any">Any types</option>
@@ -38,7 +38,7 @@
 <option value="type19">LED</option>
 <option value="type18">Other</option>
 </select>
-<select>
+<select id="ratingFilter>
 <option value="notSelected" disabled selected>Select ratings...</option>
 <option value="anyRating">Any rating</option>
 <option value="noRatings">No ratings</option>
@@ -47,6 +47,29 @@
 <option value="3orHigher">≥ ⭐⭐⭐</option>
 <option value="4orHigher">≥ ⭐⭐⭐⭐</option>
 <option value="5orHigher">= 🌟🌟🌟🌟🌟</option>
+</select>
+<select id="hiringFilter">
+<option value="notSelected" disabled selected>Select hiring...</option>
+<option value="any">Either</option>
+<option value="nothiring">Not hiring</option>
+<option value="hiring">Hiring</option>
+</select>
+<select id="popularityFilter">
+<option value="notSelected" disabled selected>Select popularity...</option>
+<option value="any">Any popularity</option>
+<option value="1">Low popularity</option>
+<option value="2">Below medium popularity</option>
+<option value="3">Medium popularity</option>
+<option value="4">Popular</option>
+<option value="5">Very popular</option>
+<option value="6">Extremely popular</option>
+</select>
+<select id="activeFilter">
+<option value="notSelected" disabled selected>Select activity...</option>
+<option value="any">Any activity</option>
+<option value="1">Inactive</option>
+<option value="2">Somewhat active</option>
+<option value="3">Active</option>
 </select>
 <button id="searchContinue">
 Search
