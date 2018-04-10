@@ -1,3 +1,3 @@
-# The Scratch Shop Directory 7.0
+# The Central Scratch Shop Directory
 
 Central shopping directory for Scratch users
